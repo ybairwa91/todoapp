@@ -11,3 +11,62 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: aliceblue;
+
+}
+
+.app h1 {
+  text-align: center;
+
+}
+
+.app hr {
+  margin-top: 3rem;
+}
+
+.form input {
+  width: 20rem;
+  height: 4rem;
+  margin-left: 36rem;
+  text-align: left;
+  font-size: 1.2rem;
+}
+
+.form button {
+  width: 5rem;
+  height: 2rem;
+  margin-left: 2rem;
+  color: black;
+  background-color: rgb(181, 177, 177);
+  border-radius: 10px;
+}
+
+
+.list {
+  margin-left: 30rem;
+  width: 40%;
+
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+  height: 4rem;
+  margin: 1rem;
+  background-color: rgb(196, 192, 192);
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+}
+
+.heading p {
+  padding: 0.6rem
+}
